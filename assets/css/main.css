@@ -201,8 +201,19 @@ strong, bold, b{
 .post-content h1,
 .post-content h2,
 .post-content h3{
-  margin-top: 2.857rem;
+  margin-top: 2rem;
   margin-bottom: 1.65rem;
+}
+
+.post-content h2 {
+  padding-bottom: 0.8rem;
+  border-bottom: 2px dashed #ccc;
+  text-transform: uppercase;  
+}
+
+.post-content h3 {
+  text-decoration: underline;
+  text-transform: capitalize;  
 }
 
 .post-content h4,
